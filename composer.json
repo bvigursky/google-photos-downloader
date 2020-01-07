@@ -1,0 +1,23 @@
+{
+    "name": "vigurdev/google-photos-downloader",
+    "description": "Download photos from an album",
+    "authors": [
+        {
+            "name": "Bohdan Vihurskyi",
+            "email": "b.vigursky@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Vigurdev\\GooglePhotosDownloader\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Vigurdev\\GooglePhotosDownloader\\GooglePhotosDownloaderServiceProvider"
+            ]
+        }
+    }
+}
